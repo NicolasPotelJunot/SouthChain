@@ -15,7 +15,7 @@ export const ModalMenu = () => {
     <>
       {
         (selector===true)
-            ?<nav className={` bg-gradient animate__animated animate__zoomIn animate__faster z-10 absolute  h-screen w-screen text-white font-bold text-5xl lg:text-6xl flex flex-col justify-center items-center`}>
+            ?<nav className={` bg-gradient animate__animated animate__zoomIn animate__faster z-10 fixed  h-screen w-screen text-white font-bold text-5xl lg:text-6xl flex flex-col justify-center items-center`}>
                 <Link to="/" onClick={handleClosedMenu} className='hover:underline decoration-4'>Home</Link>
                 <Link to="/contact" onClick={handleClosedMenu} className='mt-14 hover:underline decoration-4'>Contacto</Link>
     

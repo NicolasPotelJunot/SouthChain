@@ -1,5 +1,6 @@
-import { ButtonMenu, VideoView } from "./components"
+import { ButtonMenu } from "./components"
 import { ModalMenu } from "./components/ModalMenu"
+import { Home } from "./Home"
 
 
 
@@ -7,8 +8,8 @@ function App() {
   return (
     <main>
       <ModalMenu />
-      <VideoView />
       <ButtonMenu />
+      <Home />
     </main>
   )
 }

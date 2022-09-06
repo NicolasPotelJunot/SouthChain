@@ -31,7 +31,7 @@ export const ButtonMenu = () => {
 
 
   return (
-    <button onClick={handleButton} className={`${first} z-20 p-1 rounded-full text-white flex justify-center items-center absolute top-5 left-5`}>
+    <button onClick={handleButton} className={`${first} z-20 p-1  rounded-full text-white flex justify-center items-center fixed top-5 left-5`}>
         <Hamburger toggled={selector} size={32} rounded  distance="sm"/>
     </button>
   )
