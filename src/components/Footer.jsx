@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { Button } from "@material-tailwind/react";
 
 export const Footer = () => {
   return (
@@ -12,21 +13,27 @@ export const Footer = () => {
             <p className="text-center mb-2 font-medium">SEGUINOS EN :</p>
 
             <div className="flex items-center">
-                <a 
-                className="rounded-full h-14 w-14 flex items-center justify-center bg-gradient text-white text-3xl mx-1 cursor-pointer" 
-                target="_blank" 
-                href="https://www.instagram.com/southchain.ar/"
-                >
-                    <FontAwesomeIcon icon={faInstagram} />                
-                </a>
-                <a 
-                className="rounded-full h-14 w-14 flex items-center justify-center bg-gradient text-white text-3xl mx-1 cursor-pointer" 
-                target="_blank" 
-                href="https://www.facebook.com/profile.php?id=100076368545164"
-                >
-                    <FontAwesomeIcon icon={faFacebookF} />
-                </a>
+                <Button className="rounded-full h-14 w-14 flex items-center justify-center bg-gradient text-white text-3xl mx-1 cursor-pointer"> 
+                    <a 
+                    className="text-center h-14 w-14 flex items-center justify-center" 
+                    target="_blank" 
+                    href="https://www.instagram.com/southchain.ar/"
+                    >
+                        <FontAwesomeIcon icon={faInstagram} />                
+                    </a>
+                </Button>
+
+                <Button className="rounded-full h-14 w-14 flex items-center justify-center bg-gradient text-white text-3xl mx-1 cursor-pointer"> 
+                    <a 
+                    className="text-center h-14 w-14 flex items-center justify-center" 
+                    target="_blank" 
+                    href="https://www.facebook.com/profile.php?id=100076368545164"
+                    >              
+                        <FontAwesomeIcon icon={faFacebookF} />
+                    </a>
+                </Button>
             </div>
+
         </div>
         
 
