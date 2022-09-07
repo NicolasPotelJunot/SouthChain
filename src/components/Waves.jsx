@@ -1,8 +1,20 @@
 
-export const Waves = () => {
+export const Waves = ({position}) => {
+
   return (
-    <div className="mb-10">
-        <img src="../../public/wave.svg"/>        
-    </div>
+    <>
+      {
+      (position==="down")
+      ?<div className="mb-10">
+          <img src="../../public/wave.svg"/>        
+      </div>
+      :
+      (position==="up")
+      ?<div className="mt-10">
+          <img src="../../public/wave2.svg"/>        
+      </div>
+      : <></>
+      }
+    </>
   )
 }
