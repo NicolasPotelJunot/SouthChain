@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import { Button } from "@material-tailwind/react";
+
 
 export const VideoView = () => {
   return (
@@ -6,6 +9,13 @@ export const VideoView = () => {
           <source src="../../public/20220516_172713.mp4" type="video/mp4" className="m-0"/>
         Your browser does not support HTML5 video.
       </video>
+      <div className="w-full flex justify-center">
+        <Button className="text-white text-lg lg:text-2xl py-1 px-3 lg:py-2 rounded-xl bg-gradient relative bottom-36 lg:bottom-48">
+          <Link to="/contact" className=" ">
+            CONTACTANOS
+          </Link>          
+        </Button>        
+      </div>
     </div>
   )
 }
