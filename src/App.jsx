@@ -8,8 +8,8 @@ function App() {
   return (
     <ThemeProvider>
       <main>
-        <ModalMenu />
         <ButtonMenu />
+        <ModalMenu />
         <Home />
       </main>
     </ThemeProvider>

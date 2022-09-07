@@ -1,12 +1,12 @@
 import { VideoView } from "./components"
+import { ButtonWhatsApp } from "./components/ButtonWhatsApp"
 import { Footer } from "./components/Footer"
 import { Services } from "./components/Services"
 import { Waves } from "./components/Waves"
 
 export const Home = () => {
   return (
-    <>
-
+    <>    
       <VideoView />
 
       <div className="mb-28">
@@ -57,6 +57,8 @@ export const Home = () => {
       <Waves position="up" />
 
       <Footer />
+      
+      <ButtonWhatsApp />
 
     </>
   )
