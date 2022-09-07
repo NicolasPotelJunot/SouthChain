@@ -1,7 +1,8 @@
-import React from 'react'
+import { Button } from "@material-tailwind/react";
+
 
 export const ButtonDetails = () => {
   return (
-    <button className='px-4 py-2 bg-gradient text-white rounded-xl font-bold'>Mas detalles</button>
+    <Button className="bg-gradient px-4 py-4 w-32">Mas detalles</Button>
   )
 }

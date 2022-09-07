@@ -1,23 +1,29 @@
 import { ButtonDetails } from "./ButtonDetails"
 
-export const Services = () => {
+export const Services = ({text,title, position, img}) => {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 py-24">
-        <article className="px-9 2xl:px-56 mb-10">
-            <h2 className="text-left text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-semibold text-gradient">Luminaria<br/> Smart</h2>
+    <article>
 
-            <div className="h-2 xl:h-3 w-3/4 my-5 bg-gradient rounded-3xl"></div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-24 my-10 px-10">
+          <div className="px-9 mb-10 flex flex-col justify-center">
+              <h2 className="text-left pb-10 text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-semibold text-gradient">
+                {title}
+              </h2>
 
-            <p className=" text-xl my-10">Nos permiten controlar luces LED desde una app del celular o un control remoto bluetooth</p>
+              <div className="h-2 xl:h-3 w-3/4 my-5 bg-gradient rounded-3xl"></div>
 
-            <ButtonDetails/>
+              <p className=" text-xl my-10">{text}</p>
 
-        </article>
-        <div className="">
-            <div className="bg-gradient w-3/4 p-1 lg:p-2 m-auto">
-                <img src="../../public/services.jpg" className="w-full" />
-            </div>
-        </div>
-    </section>
+              <ButtonDetails/>
+
+          </div>
+          <div className="">
+              <div className="bg-gradient w-3/4 p-1 lg:p-2 m-auto">
+                  <img src={img} className="w-full" />
+              </div>
+          </div>
+        </div>        
+
+    </article>
   )
 }

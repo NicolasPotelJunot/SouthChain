@@ -21,9 +21,41 @@ export const Home = () => {
 
       </div>
 
-      <Services />
+      <section>
+
+        <Services 
+        img={"../../public/services.jpg"}
+        title={"Luminaria Smart"}
+        text={"Nos permiten controlar luces LED desde una app del celular o un control remoto bluetooth."}
+        />
+
+        <Services 
+        img={"../../public/services2.jpg"}
+        title={"Asistente de voz"}
+        text={"Podrás interactuar mediante voz, accediendo a información en tiempo real y ejecución, todo tipo de tareas que desees."}
+        />
+
+        <Services 
+        img={"../../public/services.jpg"}
+        title={"Automatización"}
+        text={"Con nuestra tecnologías podrás automatizar el portón de su garage, puertas, ventanas, termostato, cortinas y persianas."}
+        />
+
+        <Services 
+        img={"../../public/services2.jpg"}
+        title={"Seguridad"}
+        text={"Mejora tu seguridad con tecnología smart,cámaras, sensores y cerraduras inteligentes."}
+        />
+
+        <Services 
+        img={"../../public/services.jpg"}
+        title={"Mantenimiento del Hogar"}
+        text={"Automatiza tus tareas del hogar con tecnologías smart."}
+        />
+      </section>
 
       <Waves position="up" />
+
       <Footer />
 
     </>
