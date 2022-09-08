@@ -2,8 +2,11 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://nicolaspoteljunot.github.io/southchain",
   "type": "module",
   "scripts": {
+    "prededeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,6 +20,7 @@
     "@reduxjs/toolkit": "^1.8.5",
     "animate.css": "^4.1.1",
     "babel-plugin-macros": "^3.1.0",
+    "gh-pages": "^4.0.0",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
