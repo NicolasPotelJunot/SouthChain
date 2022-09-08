@@ -10,8 +10,8 @@ export const VideoView = () => {
         Your browser does not support HTML5 video.
       </video>
       <div className="w-full flex justify-center">
-        <Button className="text-white text-lg lg:text-2xl py-1 px-3 lg:py-2 rounded-xl bg-gradient relative bottom-36 lg:bottom-48">
-          <Link to="/contact" className=" ">
+        <Button className="text-white text-lg lg:text-2xl py-1 px-4 lg:py-2 rounded-xl bg-gradient relative bottom-36 lg:bottom-48">
+          <Link to="/contact">
             CONTACTANOS
           </Link>          
         </Button>        

@@ -1,21 +1,23 @@
+import { Link } from "react-router-dom"
 import { ButtonDetails } from "./ButtonDetails"
+import { TitleGradient } from "./ui/TitleGradient"
 
-export const Services = ({text,title, img}) => {
+export const Services = ({text,title, img, path}) => {
   return (
     <article>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 py-24 lg:my-10 px-10">
           <div className="lg:px-9 mb-10 flex flex-col justify-center">
 
-              <h2 className="text-left pb-5 ld:pb-10 text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-semibold text-gradient">
-                {title}
-              </h2>
+              <TitleGradient title={title}/>
 
               <div className="h-2 xl:h-3 w-3/4 mb-5 bg-gradient rounded-3xl"></div>
 
               <p className=" text-xl my-10">{text}</p>
 
-              <ButtonDetails/>
+              <Link to={`/service/${path}`}>
+                <ButtonDetails description={"Mas detalles"}/>
+              </Link>
 
           </div>
           <div className="">
