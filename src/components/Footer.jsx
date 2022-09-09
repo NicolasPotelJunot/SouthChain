@@ -1,13 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { Button } from "@material-tailwind/react";
-import IMGLOGO from "../assets/isologo-horizontal_positivo.png";
 
 export const Footer = () => {
   return (
     <footer className="py-8 lg:px-10 flex">      
 
-        <img src={IMGLOGO} className="h-20 sm:h-44" />
+        <img src={"isologo-horizontal_positivo.png"} className="h-20 sm:h-44" />
 
         <div className="flex flex-col justify-center items-center">
 

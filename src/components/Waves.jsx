@@ -1,5 +1,3 @@
-import IMG1 from "../assets/wave.svg";
-import IMG2 from "../assets/wave2.svg";
 
 export const Waves = ({position}) => {
 
@@ -8,12 +6,12 @@ export const Waves = ({position}) => {
       {
       (position==="down")
       ?<div className="mb-10">
-          <img src={IMG1}/>        
+          <img src={"wave.svg"}/>        
       </div>
       :
       (position==="up")
       ?<div className="mt-10">
-          <img src={IMG2}/>        
+          <img src={"wave2.svg"}/>        
       </div>
       : <></>
       }
