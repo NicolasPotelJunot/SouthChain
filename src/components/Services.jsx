@@ -13,7 +13,7 @@ export const Services = ({text,title, img, path}) => {
 
               <div className="h-2 xl:h-3 w-3/4 mb-5 bg-gradient rounded-3xl"></div>
 
-              <p className=" text-xl my-10">{text}</p>
+              <p className=" text-xl xl:text-3xl my-10">{text}</p>
 
               <Link to={`/service/${path}`}>
                 <ButtonDetails description={"Mas detalles"}/>
