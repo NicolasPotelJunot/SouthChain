@@ -2,7 +2,8 @@
 export const Service = ({title,description}) => {
   return (
     <article className="px-4 sm:px-10 md:px-20 lg:grid lg:grid-cols-2 mb-24">
-        <img src={`../../../public/products/${title}.jpg`} className=""/>
+        {/* <img src={`../../assets/products/${title}.jpg`} className=""/> */}
+        <img src="../../assets/products/Alimentador de Mascotas.jpg" />
         <div className="lg:flex lg:flex-col lg:items-center lg:justify-center">
           <h3 className="text-center lg:text-left font-bold my-5 text-xl md:text-2xl lg:text-3xl xl:text-5xl">
             {title}
