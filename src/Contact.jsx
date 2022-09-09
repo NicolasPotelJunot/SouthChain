@@ -58,8 +58,8 @@ export const Contact = () => {
 
       </div>
 
-      <img className="top-0 right-0 absolute h-56  xl:h-96 -z-10" src="../../public/wave-corner.svg"/>
-      <img className="bottom-0 left-0 absolute h-56 xl:h-96 -z-10" src="../../public/wave-corner2.svg"/>
+      <img className="top-0 right-0 absolute h-56  xl:h-96 -z-10" src="wave-corner.svg"/>
+      <img className="bottom-0 left-0 absolute h-56 xl:h-96 -z-10" src="wave-corner2.svg"/>
       
     </section>
   )

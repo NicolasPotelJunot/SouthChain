@@ -23,7 +23,7 @@ export const ModalMenu = () => {
     
                 <img 
                 className='h-20 lg:h-36 absolute bottom-10' 
-                src="../../public/isologo-horizontal_negativo-pluma.png" 
+                src="isologo-horizontal_negativo-pluma.png" 
                 alt="logo southchain" 
                 />
 
