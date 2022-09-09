@@ -24,35 +24,35 @@ export const Home = () => {
       <section>
 
         <Services 
-        img={"services.jpg"}
+        img={"services/services-luminaria.jpg"}
         title={"Luminaria Smart"}
         text={"Nos permiten controlar luces LED desde una app del celular o un control remoto bluetooth."}
         path={"luminaria-smart"}
         />
 
         <Services 
-        img={"services2.jpg"}
+        img={"services/services-asisst.jpg"}
         title={"Asistentes de voz"}
         text={"Podrás interactuar mediante voz, accediendo a información en tiempo real y ejecución, todo tipo de tareas que desees."}
         path={"asistente-de-voz"}
         />
 
         <Services 
-        img={"services.jpg"}
+        img={"services/services-automatizacion.jpg"}
         title={"Automatización"}
         text={"Con nuestra tecnologías podrás automatizar el portón de su garage, puertas, ventanas, termostato, cortinas y persianas."}
         path={"automatizacion"}
         />
 
         <Services 
-        img={"services2.jpg"}
+        img={"services/services-seguridad.jpg"}
         title={"Seguridad"}
         text={"Mejora tu seguridad con tecnología smart,cámaras, sensores y cerraduras inteligentes."}
         path={"seguridad"}
         />
 
         <Services 
-        img={"services.jpg"}
+        img={"services/services-mantenimiento.jpg"}
         title={"Mantenimiento del Hogar"}
         text={"Automatiza tus tareas del hogar con tecnologías smart."}
         path={"mantenimiento-hogar"}
