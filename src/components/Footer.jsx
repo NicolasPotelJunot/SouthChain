@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 
 export const Footer = () => {
   return (
-    <footer className="py-8 lg:px-10 flex">      
+    <footer className="py-8 lg:px-10 flex ">      
 
         <img src={"isologo-horizontal_positivo.png"} className="h-20 sm:h-44" />
 
