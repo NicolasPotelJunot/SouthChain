@@ -46,7 +46,7 @@ export const Contact = () => {
             <a 
             className="text-center h-14 w-14 flex items-center justify-center" 
             target="_blank" 
-            href="https://api.whatsapp.com/send?phone=3512185215"
+            href="https://api.whatsapp.com/send?phone=3518046661"
             >              
                 <FontAwesomeIcon icon={faWhatsapp} />
             </a>
@@ -54,7 +54,7 @@ export const Contact = () => {
                
         </aside>
 
-        <p className="mt-10 text-lg lg:text-xl text-gray-800"> <FontAwesomeIcon icon={faPhone} /> Llamanos al: 3512185215</p>
+        <p className="mt-10 text-lg lg:text-xl text-gray-800"> <FontAwesomeIcon icon={faPhone} /> Llamanos al: 5493518046661</p>
 
       </div>
 
