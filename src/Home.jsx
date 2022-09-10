@@ -40,6 +40,7 @@ export const Home = () => {
         <Services 
         img={"services/services-automatizacion.jpg"}
         title={"Automatización"}
+        text={"Con nuestra tecnologías podrás automatizar el portón de su garage, puertas, ventanas, termostato, cortinas y persianas."}
         path={"automatizacion"}
         />
 
