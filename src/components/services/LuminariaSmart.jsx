@@ -1,14 +1,14 @@
 import { ButtonMenu } from '../ButtonMenu'
 import { ButtonWhatsApp } from '../ButtonWhatsApp'
+import { DesktopMenu } from '../DesktopMenu'
 import { Footer } from '../Footer'
 import { ModalMenu } from '../ModalMenu'
+import { Presupuesto } from '../Presupuesto'
 import { TitleGradient } from '../ui/TitleGradient'
 import { Waves } from '../Waves'
 import { Service } from './Service'
 
 export const LuminariaSmart = () => {
-
-
 
   return (
     <section className=''>
@@ -16,6 +16,7 @@ export const LuminariaSmart = () => {
         <ButtonWhatsApp />
         <ButtonMenu />
         <ModalMenu />
+        <DesktopMenu />
         
         <Waves position={"down"} />
 
@@ -41,6 +42,8 @@ export const LuminariaSmart = () => {
             title={"Focos"}
             description={"Bombillas que se conectan a la red Wifi permitiendo encenderlas, apagarlas, incluirlas en rutinas y cambiarles de color a gusto"}
         />
+
+        <Presupuesto />
         
         <Waves position={"up"} />
         <Footer />

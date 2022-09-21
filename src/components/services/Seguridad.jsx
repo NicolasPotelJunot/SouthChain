@@ -1,7 +1,9 @@
 import { ButtonMenu } from '../ButtonMenu'
 import { ButtonWhatsApp } from '../ButtonWhatsApp'
+import { DesktopMenu } from '../DesktopMenu'
 import { Footer } from '../Footer'
 import { ModalMenu } from '../ModalMenu'
+import { Presupuesto } from '../Presupuesto'
 import { TitleGradient } from '../ui/TitleGradient'
 import { Waves } from '../Waves'
 import { Service } from './Service'
@@ -13,6 +15,7 @@ export const Seguridad = () => {
         <ButtonWhatsApp />
         <ButtonMenu />
         <ModalMenu />
+        <DesktopMenu />
         
         <Waves position={"down"} />
 
@@ -62,6 +65,8 @@ export const Seguridad = () => {
             title={"Detector de Humo"}
             description={"Sensor de gran utilidad usado para la detección de incendios o principios de incendios, permite avisarte al celular y/o tomar las acciones correspondientes, pudiendo combinarlo con otros sensores o accionadores para tomar medidas remotamente de ser deseado."}
         /> 
+
+        <Presupuesto />
 
         <Waves position={"up"} />
         <Footer />

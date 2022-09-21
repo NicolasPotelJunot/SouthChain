@@ -9,7 +9,7 @@ export const Home = () => {
     <>    
       <VideoView />
 
-      <div className="mb-28">
+      <div className="mb-10 lg:mb-28">
         
         <Waves position="down"/>
 

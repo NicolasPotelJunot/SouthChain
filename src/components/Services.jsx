@@ -6,7 +6,7 @@ export const Services = ({text,title, img, path}) => {
   return (
     <article>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 py-24 lg:my-10 px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-14 lg:py-20 lg:my-10 px-10">
           <div className="lg:px-9 mb-10 flex flex-col justify-center">
 
               <TitleGradient title={title}/>

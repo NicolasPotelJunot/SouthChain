@@ -1,7 +1,9 @@
 import { ButtonMenu } from '../ButtonMenu'
 import { ButtonWhatsApp } from '../ButtonWhatsApp'
+import { DesktopMenu } from '../DesktopMenu'
 import { Footer } from '../Footer'
 import { ModalMenu } from '../ModalMenu'
+import { Presupuesto } from '../Presupuesto'
 import { TitleGradient } from '../ui/TitleGradient'
 import { Waves } from '../Waves'
 import { Service } from './Service'
@@ -13,6 +15,7 @@ export const AsistenteVoz = () => {
         <ButtonWhatsApp />
         <ButtonMenu />
         <ModalMenu />
+        <DesktopMenu />
         
         <Waves position={"down"} />
 
@@ -45,6 +48,8 @@ export const AsistenteVoz = () => {
             description={"Mismas capacidades que el modelo sin pantalla, sumando la posibilidad de mostrarte los resultados de las búsquedas, videos, instrucciones para cocinar y hasta videollamadas con quien quieras."}
         />
         
+        <Presupuesto />
+
         <Waves position={"up"} />
         <Footer />
 

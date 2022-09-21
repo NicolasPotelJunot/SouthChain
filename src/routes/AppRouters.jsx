@@ -1,7 +1,4 @@
-import {
-    Routes,
-    Route,
-  } from "react-router-dom";
+import { Routes,Route, } from "react-router-dom";
 import App from "../App";
 import { AsistenteVoz } from "../components/services/AsistenteVoz";
 import { Automatizacion } from "../components/services/Automatizacion";
@@ -9,6 +6,7 @@ import { LuminariaSmart } from "../components/services/LuminariaSmart";
 import { MantenimientoHogar } from "../components/services/MantenimientoHogar";
 import { Seguridad } from "../components/services/Seguridad";
 import { Contact } from "../Contact";
+import { QuienesSomos } from "../QuienesSomos";
 
 
 export const AppRouters = () => {
@@ -19,6 +17,7 @@ export const AppRouters = () => {
       <Route path="/" element={<App />} />
       <Route path="/*" element={<App />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<QuienesSomos />} />
 
 
       {/* services */}

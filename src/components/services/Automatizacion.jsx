@@ -1,7 +1,9 @@
 import { ButtonMenu } from '../ButtonMenu'
 import { ButtonWhatsApp } from '../ButtonWhatsApp'
+import { DesktopMenu } from '../DesktopMenu'
 import { Footer } from '../Footer'
 import { ModalMenu } from '../ModalMenu'
+import { Presupuesto } from '../Presupuesto'
 import { TitleGradient } from '../ui/TitleGradient'
 import { Waves } from '../Waves'
 import { Service } from './Service'
@@ -13,6 +15,7 @@ export const Automatizacion = () => {
         <ButtonWhatsApp />
         <ButtonMenu />
         <ModalMenu />
+        <DesktopMenu />
         
         <Waves position={"down"} />
 
@@ -64,6 +67,8 @@ export const Automatizacion = () => {
             description={"Con este dispositivo vas a poder manejar la apertura y cierre de tu portón donde sea que estés desde tu celular o por voz, manteniendo la posibilidad de hacerlo desde el control remoto original."}
         />
         
+        <Presupuesto />
+
         <Waves position={"up"} />
         <Footer />
 

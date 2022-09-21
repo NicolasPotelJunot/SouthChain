@@ -1,7 +1,9 @@
 import { ButtonMenu } from '../ButtonMenu'
 import { ButtonWhatsApp } from '../ButtonWhatsApp'
+import { DesktopMenu } from '../DesktopMenu'
 import { Footer } from '../Footer'
 import { ModalMenu } from '../ModalMenu'
+import { Presupuesto } from '../Presupuesto'
 import { TitleGradient } from '../ui/TitleGradient'
 import { Waves } from '../Waves'
 import { Service } from './Service'
@@ -13,6 +15,7 @@ export const MantenimientoHogar = () => {
         <ButtonWhatsApp />
         <ButtonMenu />
         <ModalMenu />
+        <DesktopMenu />
         
         <Waves position={"down"} />
 
@@ -37,6 +40,8 @@ export const MantenimientoHogar = () => {
             title={"Alimentador de Mascotas"}
             description={"Con una capacidad de hasta 5hg de comida, puedes automatizar las comidas a la hora exacta o alimentar estes donde estes a tu mascota a gusto desde tu celular."}
         />
+
+        <Presupuesto />
 
         <Waves position={"up"} />
         <Footer />
