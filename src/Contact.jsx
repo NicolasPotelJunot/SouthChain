@@ -8,13 +8,13 @@ import { ButtonSocial } from "./components/ButtonSocial";
 
 export const Contact = () => {
   return (
-    <section className="">
+    <section className="h-screen w-screen overflow-hidden">
 
       <ButtonMenu />
       <ModalMenu />
       <DesktopMenu />     
 
-      <div className="p-10 h-screen w-screen flex flex-col justify-center items-center animate__animated animate__zoomInDown animate__fast">
+      <div className="p-10 h-full w-full flex flex-col justify-center items-center animate__animated animate__zoomInDown animate__fast">
 
         <h1 className="text-primary text-center font-bold text-xl xl:text-5xl mb-2 lg:mt-20 lg:mb-10">
           CONTÁCTANOS
