@@ -1,5 +1,4 @@
 import { ButtonMenu, ModalMenu } from "./components"
-import { Button } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +16,7 @@ export const Contact = () => {
 
       <div className="p-10 h-screen w-screen flex flex-col justify-center items-center animate__animated animate__zoomInDown animate__fast">
 
-        <h1 className="text-primary text-center font-bold text-xl xl:text-5xl mb-2 lg:mb-10">
+        <h1 className="text-primary text-center font-bold text-xl xl:text-5xl mb-2 lg:mt-20 lg:mb-10">
           CONTÁCTANOS
         </h1>
 
