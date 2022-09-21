@@ -12,7 +12,14 @@ export const DesktopMenu = () => {
 
   return (
     <nav className="hidden xl:flex fixed px-6 justify-between z-10 w-full bg-white shadow-lg">
-      <img src="isologo-horizontal_positivo.png" className="h-14" />
+
+        <Link
+          to="/"
+          className=""
+        >
+          <img src="isologo-horizontal_positivo.png" className="h-14" />
+        </Link>
+
       <ul className="flex">
 
         <Link

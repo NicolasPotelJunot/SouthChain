@@ -1,12 +1,20 @@
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import { ButtonDetails } from "./ButtonDetails"
 import { TitleGradient } from "./ui/TitleGradient"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Services = ({text,title, img, path}) => {
-  return (
-    <article>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 py-14 lg:py-20 lg:my-10 px-10">
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])  
+
+  return (
+    <article >
+
+        <div data-aos="fade-right" className="grid grid-cols-1 lg:grid-cols-2 py-14 lg:py-20 lg:my-10 px-10">
           <div className="lg:px-9 mb-10 flex flex-col justify-center">
 
               <TitleGradient title={title}/>
