@@ -8,7 +8,7 @@ import { ButtonSocial } from "./components/ButtonSocial";
 
 export const Contact = () => {
   return (
-    <section className="h-screen w-screen overflow-hidden">
+    <section className="h-screen w-screen overflow-hidden py-1">
 
       <ButtonMenu />
       <ModalMenu />

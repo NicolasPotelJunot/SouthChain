@@ -25,11 +25,11 @@ export const ModalMenu = () => {
                   <div className=' text-center font-bold text-4xl mt-6'>
                     Soluciones
                     <ul className="grid grid-cols-1 gap-3 pt-3">
-                      <Link to="/service/luminaria-smart" onClick={handleClosedMenu} className='text-center font-thin text-lg'>Luminaria Smart</Link>
+                      <Link to="/service/luminaria-smart" onClick={handleClosedMenu} className='text-center font-light text-lg'>Luminaria Smart</Link>
                       <Link to="/service/seguridad" onClick={handleClosedMenu} className='text-center font-thin text-lg'>Seguridad</Link>
-                      <Link to="/service/asistente-de-voz" onClick={handleClosedMenu} className='text-center font-thin text-lg'>Asistente de Voz</Link>
-                      <Link to="/service/automatizacion" onClick={handleClosedMenu} className='text-center font-thin text-lg'>Automatizacion</Link>
-                      <Link to="/service/mantenimiento-hogar" onClick={handleClosedMenu} className='text-center font-thin text-lg'>Mantenimiento del Hogar</Link>
+                      <Link to="/service/asistente-de-voz" onClick={handleClosedMenu} className='text-center font-light text-lg'>Asistente de Voz</Link>
+                      <Link to="/service/automatizacion" onClick={handleClosedMenu} className='text-center font-light text-lg'>Automatizacion</Link>
+                      <Link to="/service/mantenimiento-hogar" onClick={handleClosedMenu} className='text-center font-light text-lg'>Mantenimiento del Hogar</Link>
                     </ul>
                   </div>
                 </div>
