@@ -1,4 +1,3 @@
-
-export * from "./ButtonMenu"
-export * from "./VideoView"
-export * from "./ModalMenu"
+export * from "./ButtonMenu";
+export * from "./VideoView";
+export * from "./ModalMenu";

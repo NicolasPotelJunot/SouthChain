@@ -1,11 +1,11 @@
 import { useEffect } from "react"
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import { VideoView } from "./components"
 import { ButtonWhatsApp } from "./components/ButtonWhatsApp"
 import { Footer } from "./components/Footer"
 import { Services } from "./components/Services"
 import { Waves } from "./components/Waves"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 export const Home = () => {
 
@@ -41,32 +41,33 @@ export const Home = () => {
         />
 
         <Services 
-        img={"services/services-asisst.jpg"}
-        title={"Asistentes de voz"}
-        text={"Podrás interactuar mediante voz, accediendo a información en tiempo real y ejecución, todo tipo de tareas que desees."}
-        path={"asistente-de-voz"}
+          img={"services/services-asisst.jpg"}
+          title={"Asistentes de voz"}
+          text={"Podrás interactuar mediante voz, accediendo a información en tiempo real y ejecución, todo tipo de tareas que desees."}
+          path={"asistente-de-voz"}
         />
 
         <Services 
-        img={"services/services-automatizacion.jpg"}
-        title={"Automatización"}
-        text={"Con nuestra tecnologías podrás automatizar el portón de su garage, puertas, ventanas, termostato, cortinas y persianas."}
-        path={"automatizacion"}
+          img={"services/services-automatizacion.jpg"}
+          title={"Automatización"}
+          text={"Con nuestra tecnologías podrás automatizar el portón de su garage, puertas, ventanas, termostato, cortinas y persianas."}
+          path={"automatizacion"}
         />
 
         <Services 
-        img={"services/services-seguridad.jpg"}
-        title={"Seguridad"}
-        text={"Mejora tu seguridad con tecnología smart,cámaras, sensores y cerraduras inteligentes."}
-        path={"seguridad"}
+          img={"services/services-seguridad.jpg"}
+          title={"Seguridad"}
+          text={"Mejora tu seguridad con tecnología smart,cámaras, sensores y cerraduras inteligentes."}
+          path={"seguridad"}
         />
 
         <Services 
-        img={"services/services-mantenimiento.jpg"}
-        title={"Mantenimiento del Hogar"}
-        text={"Automatiza tus tareas del hogar con tecnologías smart."}
-        path={"mantenimiento-hogar"}
+          img={"services/services-mantenimiento.jpg"}
+          title={"Mantenimiento del Hogar"}
+          text={"Automatiza tus tareas del hogar con tecnologías smart."}
+          path={"mantenimiento-hogar"}
         />
+        
       </section>
 
       <Waves position="up" />

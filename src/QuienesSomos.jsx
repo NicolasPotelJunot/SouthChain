@@ -1,6 +1,5 @@
-import { ButtonMenu } from "./components/ButtonMenu"
-import { DesktopMenu } from "./components/DesktopMenu"
-import { ModalMenu } from "./components/ModalMenu"
+import { ButtonMenu } from "./components/ButtonMenu";
+import { ModalMenu } from "./components/ModalMenu";
 
 export const QuienesSomos = () => {
   return (
@@ -8,6 +7,6 @@ export const QuienesSomos = () => {
       <ButtonMenu />
       <ModalMenu />
       QuienesSomos
-      </div>
-  )
-}
+    </div>
+  );
+};

@@ -1,32 +1,10 @@
-import { Routes,Route, } from "react-router-dom";
-import App from "../App";
-import { AsistenteVoz } from "../components/services/AsistenteVoz";
-import { Automatizacion } from "../components/services/Automatizacion";
-import { LuminariaSmart } from "../components/services/LuminariaSmart";
-import { MantenimientoHogar } from "../components/services/MantenimientoHogar";
-import { Seguridad } from "../components/services/Seguridad";
-import { Contact } from "../Contact";
-import { QuienesSomos } from "../QuienesSomos";
-
+import { HashRouter } from "react-router-dom";
+import { DashRouters } from "./DashRouters";
 
 export const AppRouters = () => {
   return (
-    <Routes>
-
-      {/* general routes */}
-      <Route path="/" element={<App />} />
-      <Route path="/*" element={<App />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<QuienesSomos />} />
-
-
-      {/* services */}
-      <Route path="/service/luminaria-smart" element={<LuminariaSmart />} />
-      <Route path="/service/asistente-de-voz" element={<AsistenteVoz />} />
-      <Route path="/service/automatizacion" element={<Automatizacion />} />
-      <Route path="/service/seguridad" element={<Seguridad />} />
-      <Route path="/service/mantenimiento-hogar" element={<MantenimientoHogar />} />
-
-    </Routes>
-  )
-}
+    <HashRouter>
+      <DashRouters />
+    </HashRouter>
+  );
+};
