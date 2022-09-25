@@ -1,20 +1,16 @@
-import { ButtonMenu, ModalMenu } from "./components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Form } from "./components/Form";
-import { DesktopMenu } from "./components/DesktopMenu";
 import { ButtonSocial } from "./components/ButtonSocial";
 
 export const Contact = () => {
   return (
-    <section className="h-screen w-screen overflow-hidden">
+    <section className="animate__animated animate__fadeIn">
 
-      <ButtonMenu />
-      <ModalMenu />
-      <DesktopMenu />     
+      <img className="top-0 right-0 absolute h-56 xl:h-96 -z-10" src="wave-corner.svg"/>      
 
-      <div className="p-10 h-full w-full flex flex-col justify-center items-center animate__animated animate__zoomInDown animate__fast">
+      <div className="px-10 py-24 lg:py-10 flex flex-col justify-center items-center animate__animated animate__zoomInDown animate__fast">
 
         <h1 className="text-primary text-center font-bold text-xl xl:text-5xl mb-2 lg:mt-20 lg:mb-10">
           CONTÁCTANOS
@@ -32,12 +28,17 @@ export const Contact = () => {
                
         </aside>
 
-        <p className="mt-10 text-lg lg:text-xl text-gray-800 bg-white px-1 rounded-xl"> <FontAwesomeIcon icon={faPhone} /> Llamanos al: 5493518046661</p>
+        <p className="mt-10 text-lg lg:text-xl text-gray-800 bg-white px-1 rounded-xl"> 
+          <FontAwesomeIcon icon={faPhone} /> 
+          Llamanos al: 5493518046661
+        </p>
+
+        <img className="bottom-0 left-0 absolute h-56 xl:h-96 -z-10" src="wave-corner2.svg"/>
 
       </div>
 
-      <img className="top-0 right-0 absolute h-56  xl:h-96 -z-10" src="wave-corner.svg"/>
-      <img className="bottom-0 left-0 absolute h-56 xl:h-96 -z-10" src="wave-corner2.svg"/>
+      
+      
       
     </section>
   )

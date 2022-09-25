@@ -20,19 +20,21 @@ export const DashRouters = () => {
       <ButtonWhatsApp />
 
       <Routes>
+
         {/* general routes */}
-        <Route path="/" element={<App />} />
+        <Route path="/" index element={<App />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<QuienesSomos />} />
 
         {/* services */}
-        <Route path="/luminaria-smart" element={<LuminariaSmart />} />
-        <Route path="/asistente-de-voz" element={<AsistenteVoz />} />
-        <Route path="/automatizacion" element={<Automatizacion />} />
-        <Route path="/seguridad" element={<Seguridad />} />
-        <Route path="/mantenimiento-hogar" element={<MantenimientoHogar />} />
+        <Route path="/luminaria-smart" index element={<LuminariaSmart />} />
+        <Route path="/asistente-de-voz" index element={<AsistenteVoz />} />
+        <Route path="/automatizacion" index element={<Automatizacion />} />
+        <Route path="/seguridad" index element={<Seguridad />} />
+        <Route path="/mantenimiento-hogar" index element={<MantenimientoHogar />} />
 
         <Route path="/*" element={<App />} />
+        
       </Routes>
     </main>
   );

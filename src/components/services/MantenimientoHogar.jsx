@@ -6,7 +6,7 @@ import { Service } from "./Service";
 
 export const MantenimientoHogar = () => {
   return (
-    <section className="">
+    <section className="animate__animated animate__fadeIn">
       <Waves position={"down"} />
 
       <div className="flex justify-center my-10">

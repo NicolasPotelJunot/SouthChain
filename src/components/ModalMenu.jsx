@@ -7,8 +7,12 @@ export const ModalMenu = () => {
     const selector = useSelector(state=>state.menuSlice.value)
     const dispatch = useDispatch()
 
-    const handleClosedMenu =()=>{
-      dispatch(open(false))
+    const handleClosedMenu =()=>{           
+      dispatch(open(false))     
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      }) 
     }
 
   return (

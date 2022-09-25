@@ -1,17 +1,16 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const menuSlice = createSlice({
-    name: 'menu',
-    initialState: {
-        value: false
+  name: "menu",
+  initialState: {
+    value: false,
+  },
+  reducers: {
+    open: (state, action) => {
+      state.value = action.payload;
     },
-    reducers: {
-         open: (state, action) => {            
-             state.value = action.payload            
-        }
-    }
+  },
 });
 
-
 export const { open } = menuSlice.actions;
-export default menuSlice.reducer
+export default menuSlice.reducer;

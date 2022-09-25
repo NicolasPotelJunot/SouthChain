@@ -1,6 +1,5 @@
-import { Home } from "./Home"
+import { Home } from "./Home";
 import { ThemeProvider } from "@material-tailwind/react";
- 
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
         <Home />
       </main>
     </ThemeProvider>
-  )
+  );
 }
 
-export default App
+export default App;
