@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons  ";
 import { NavLink } from "react-router-dom";
 
 export const DesktopMenu = () => {
@@ -42,7 +44,7 @@ export const DesktopMenu = () => {
         <div
           className="hover-4 cursor-pointer w-48 flex text-center font-bold items-center justify-center px-2 overflow-hidden relative hover:static"             
         >
-          Soluciones
+          Soluciones <FontAwesomeIcon icon={faCaretDown} className="ml-2"/>
           <div className={`absolute flex flex-col bg-gradient text-white top-14 w-48`}>
             <NavLink onClick={handleScrollTop} className="hover-solucion px-3 py-4" to={`/luminaria-smart`}>Luminaria Smart</NavLink>
             <NavLink onClick={handleScrollTop} className="hover-solucion px-3 py-4" to={`/asistente-de-voz`}>Asistente de voz</NavLink>
