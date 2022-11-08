@@ -6,6 +6,7 @@ import { ButtonDetails } from "./ButtonDetails";
 import { TitleGradient } from "./ui/TitleGradient";
 
 export const Services = ({ text, title, img, path }) => {
+  
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);

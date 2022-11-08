@@ -11,7 +11,6 @@ export const DesktopMenu = () => {
     }) 
   }
 
-
   return (
     <nav className="hidden xl:flex fixed px-6 justify-between z-10 w-full bg-white shadow-lg">
 
@@ -31,14 +30,6 @@ export const DesktopMenu = () => {
           className="hover-4 w-40 flex text-center font-bold items-center justify-center px-2"
         >
           Home
-        </NavLink>
-
-        <NavLink
-          to="/about"
-          onClick={handleScrollTop}
-          className="hover-4 w-44 flex text-center font-bold items-center justify-center px-2"
-        >
-          Quienes Somos
         </NavLink>
 
         <div

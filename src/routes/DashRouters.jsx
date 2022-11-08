@@ -9,7 +9,6 @@ import { LuminariaSmart } from "../components/services/LuminariaSmart";
 import { MantenimientoHogar } from "../components/services/MantenimientoHogar";
 import { Seguridad } from "../components/services/Seguridad";
 import { Contact } from "../Contact";
-import { QuienesSomos } from "../QuienesSomos";
 
 export const DashRouters = () => {
   return (
@@ -24,7 +23,6 @@ export const DashRouters = () => {
         {/* general routes */}
         <Route path="/" index element={<App />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<QuienesSomos />} />
 
         {/* services */}
         <Route path="/luminaria-smart" index element={<LuminariaSmart />} />

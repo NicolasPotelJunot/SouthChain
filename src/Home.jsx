@@ -24,7 +24,7 @@ export const Home = () => {
         <img data-aos="fade-up" src={"isologo-vertical_positivo.png"} className="w-44 sm:w-64 lg:w-96 m-auto"/>
 
         <div data-aos="fade-up" className="p-5 xl:px-80 lg:mb-20">
-          <p className="sm:text-xl text-center font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt similique vero accusamus iste praesentium ab aperiam modi error minus, architecto sequi quis! Minus vitae corporis.</p>
+          <p className="sm:text-xl text-center font-semibold">Empresa de Domótica Córdoba Argentina de larga trayectoria. Tenemos capacidad para desarrollar proyectos de diferentes escalas y complejidades. Nuestro estándar de trabajo se basa en la realización de rigurosos análisis de todas las etapas del proyecto desde su diseño hasta su ejecución en obra.</p>
         </div>
 
         <Waves position="up"/>
